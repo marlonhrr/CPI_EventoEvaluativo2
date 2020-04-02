@@ -1,0 +1,24 @@
+EJEMPLO1:
+inicio
+	visua "HOLA MUNDO" ;
+fin
+_____________________________________________________
+EJEMPLO2:
+inicio
+const
+	real PI = 3.1416 ;
+	visua "el valor de pi es=" , PI ;
+fin
+_____________________________________________________
+EJEMPLO3 CODIGO CON ERROR:
+inicio
+	var
+		entero @i ;
+		cadena #s1 ;
+		visua "teclea el valor de i: " ;
+		leer i ;
+		visua "teclea el valor del radio: " ;
+		leer radio ;
+		s1 = "hola" ;
+		i = i + 1 ;
+fin
